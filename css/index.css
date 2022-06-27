@@ -1,0 +1,6 @@
+button {background-color:rgb(69, 65, 209); color:rgb(245, 245, 245); font-size:90%; padding: 5%; width: 85%; border-radius: 8px; border: 1px; float: center; margin-top: 2%; margin-bottom: 2%;}
+button:active {
+background-color: #2d2e7e;
+box-shadow: 5px 5px rgb(20, 31, 94);
+transform: translateY(4px); 
+}
