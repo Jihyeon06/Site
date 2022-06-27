@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html> 
 	<head>
-        <title>테스트</title>
-        <meta name="description" content="테스트" data-react-helmet="true">
+        <title>Introducing Jihyeon.</title>
+        <meta name="Introducing Jihyeon." content="This is Jihyeon's portfolio site." data-react-helmet="true">
         <meta charset="utf-8" />
-        <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/724637316370530324/731697397817933835/123.png">
+        <link rel="shortcut icon" href="photos/logo.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0">
-        <meta name="theme-color" content="#999999">
+        <meta name="theme-color" content="#4541d1">
         <link rel="stylesheet" href="css/index.css" type="text/css">
         <style>
             body { background-color:  rgb(34, 34, 34); background-size: cover;}
@@ -16,14 +16,52 @@
             h4 { color:rgb(245, 245, 245); }
             h5 { color:rgb(245, 245, 245); }
             p { color:rgb(245, 245, 245); }
-            img { float: top; margin: 0; padding: 0; border: 0; width:100%; height:100%; background-size: cover;  border-radius: 20px}
+            img { float: top; margin: 0; padding: 0; border: 0; width:100%; height:100%; background-size: cover;  border-radius: 20px;}
 
         </style>
     </head>
     <body>
+        <div class="menu">
+            <span>Introduce</span><span>Photo</span><span>Link</span>
+        </div>
+        <div style="text-align: center; background-color:rgb(24, 24, 24); color:rgb(245, 245, 245); width:50%; height:100%; margin: 0 auto; width: 80%; height:100%; border-radius: 20px">
+        <img src="photos/banner.png" alt="flag">
         
-        <div style="text-align: center; background-color:rgb(24, 24, 24); width:50%; height:100%; margin: 0 auto; width: 80%; height:100%; border-radius: 20px">
-            <img src="photos/banner.png" alt="flag">
+        <div class="content" style="text-align: center; background-color:rgb(17, 17, 17); width:100%; height:100%; margin: 0 auto; width: 85%; height:100%; border-radius: 10px"><h4>[ Let me introduce myself! ]</h4>
+            <h4>I'm an average high school student and I'm very interested in programming.</br>My dream is software developer. Please support my dream!</br>Thank You!</h4>
+            <button style="background-color:rgb(214, 26, 58);" onclick='count()' type="button">💖 Cheer Up! 💖</br><h3 id='result'>[ Encouraging numbers ]</br>'0' people</h3></button></br>
+        </div>
+        <div class="content" style="text-align: center; background-color:rgb(17, 17, 17); width:100%; height:100%; margin: 0 auto; width: 85%; height:100%; border-radius: 10px"><h4>[ Jihyeon's Photo List ]</h4>
+            <div class="container">
+                <div class="images">
+                    <div class="imageFlex1">
+                        <img src="photo list/t (1).png" style="border-radius: 5px;">
+                        <img src="photo list/t (2).png" style="border-radius: 5px;">
+                        <img src="photo list/t (3).png" style="border-radius: 5px;">
+                        <img src="photo list/t (12).png" style="border-radius: 5px;">
+                    </div>
+                </div>
+                <div class="images">
+                    <div class="imageFlex2">
+                        <img src="photo list/t (4).png" style="border-radius: 5px;">
+                        <img src="photo list/t (5).png" style="border-radius: 5px;">
+                        <img src="photo list/t (6).png" style="border-radius: 5px;">
+                        <img src="photo list/t (11).png" style="border-radius: 5px;">
+                        <img src="photo list/t (10).png" style="border-radius: 5px;">
+                    </div>
+                </div>
+                <div class="images">
+                    <div class="imageFlex3">
+                        <img src="photo list/t (7).png" style="border-radius: 5px;">
+                        <img src="photo list/t (8).png" style="border-radius: 5px;">
+                        <img src="photo list/t (9).png" style="border-radius: 5px;">
+                    </div>
+                </div>
+                </div>
+            </br>
+        </div>
+
+        <div class="content" style="text-align: center; background-color:rgb(17, 17, 17); width:100%; height:100%; margin: 0 auto; width: 85%; height:100%; border-radius: 10px"><h4>[ Jihyeon's Link List ]</h4>
             <button style="background-color:rgb(214, 26, 58);" type="button" onclick= "window.open('https://www.instagram.com/j.jm.o_o') ">Visit Instagram</button></br>
             <button style="background-color:rgb(214, 26, 58);" type="button" onclick= "window.open('https://www.youtube.com/channel/UCAQrCKx27D7DKlQpiJJrx-A') ">Visit Youtube</button></br>
             <button style="background-color:rgb(46, 58, 230);" type="button" onclick= "window.open('https://www.facebook.com/profile.php?id=100031327657112') ">Visit Facebook</button></br>
@@ -32,7 +70,9 @@
             <button style="background-color:rgb(89, 145, 228);" type="button" onclick= "window.open('https://twitter.com/DevinMellow') ">Visit Twitter</button></br>
             <button style="background-color:rgb(51, 38, 38);" type="button" onclick= "window.open('https://jeon-jihyeon.tistory.com/') ">Visit Tistory</button></br>
             <button style="background-color:rgb(38, 38, 46);" type="button" onclick= "window.open('https://github.com/Mellow-Devin') ">Visit Github</button></br>
-            <h5>- Dev.Jihyeon -</br>Updated 27 June 2022</h5></br>
         </div>
+        <h5>- Dev.Jihyeon -</br>Updated 27 June 2022</h5></br>
+        
+        <script src="js/jquery.js"></script>
     </body>
 </html>
