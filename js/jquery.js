@@ -1,5 +1,5 @@
 const spans = document.querySelectorAll("span")
-const contents = document.querySelectorAll(".content")
+const contents = document.querySelectorAll(".content1")
 const Top1 = contents[0].offsetTop
 const Top2 = contents[1].offsetTop
 const Top3 = contents[2].offsetTop
@@ -24,5 +24,5 @@ function count()  {
     number = parseInt(number) + 1;
 
     // 결과 출력
-    resultElement.innerText = `[ Encouraging numbers ]\n'${number}' people`;
+    resultElement.innerText = `[ 💖 Cheer Up! 💖 ]\n'${number}'`;
 }
